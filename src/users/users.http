@@ -1,0 +1,27 @@
+### List users
+GET http://localhost:3000/users
+
+### List user
+GET http://localhost:3000/users/user_iiE87y3HV52skboByCim9_2025-05-03T00:12:48.485Z
+
+### Create user
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "username": "freitaseric",
+  "email": "ericfreitas371@gmail.com",
+  "firstName": "Eric",
+  "lastName": "Freitas"
+}
+
+### Update user
+PATCH http://localhost:3000/users/user_iiE87y3HV52skboByCim9_2025-05-03T00:12:48.485Z
+Content-Type: application/json
+
+{
+  "email": "e.freitas@academico.ifrr.edu.br"
+}
+
+### Delete user
+DELETE  http://localhost:3000/users/user_pLEgrCn5KsFnUTihdnjOI_2025-05-03T00:15:20.345Z
